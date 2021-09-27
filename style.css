@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
   margin: 0;
-  background-color: #1c2333
+  background: linear-gradient(#1c2333, #1e2a38);
 }
 
 #password-field {
@@ -55,6 +55,7 @@ h1 {
   width: 450px;
   margin: auto;
   border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 #hash-display {
@@ -67,3 +68,4 @@ h1 {
   color: #FFF;
   outline: none;
 }
+

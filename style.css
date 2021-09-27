@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #1c2333
+}
+
+#password-field {
+  background-color: #435170;
+  border: none;
+  height: 1.5em;
+  color: #FFF;
+}
+
+#password-field:focus {
+  outline: none;
+}
+
+#submit-button {
+  background-color: #435170;
+  border: 1.4px solid;
+  border-color: #444;
+  border-radius: 7px;
+  height: 1.8em;
+  color: #FFF;
+}
+
+::placeholder {
+  color: #AAA;
+}
+
+#submit-button:hover {
+  background-color: #5f6f94;
+}
+
+#submit-button:active {
+  background-color: #769cde;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.child {
+  padding: 8px;
+  margin: auto;
+}
+
+.modal {
+  background-color: #232d42;
+  width: 450px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+#text-area {
+  resize: none;
+  margin: 2px;
+  width: 23em;
+  height: 1.5em;
+  border: none;
+  background-color:#435170;
+  color: #FFF;
+}

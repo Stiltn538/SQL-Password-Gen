@@ -25,7 +25,7 @@ html, body {
   border: 1.4px solid;
   border-color: #444;
   border-radius: 7px;
-  height: 1.8em;
+  height: 1.9em;
   color: #FFF;
   cursor: pointer;
   opacity: 0.7;
@@ -71,7 +71,8 @@ h1 {
 #hash-display {
   resize: none;
   margin: 2px;
-  width: 23em;
+  width: 43ch;
+  font-size: 14px;
   height: 1.5em;
   border: none;
   background-color:#435170;

@@ -22,6 +22,9 @@ html, body {
   border-radius: 7px;
   height: 1.8em;
   color: #FFF;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.25s;
 }
 
 ::placeholder {
@@ -30,10 +33,12 @@ html, body {
 
 #submit-button:hover {
   background-color: #5f6f94;
+  opacity: 1;
 }
 
 #submit-button:active {
   background-color: #769cde;
+  opacity: 1;
 }
 
 h1 {
@@ -51,7 +56,7 @@ h1 {
 }
 
 .modal {
-  background-color: #232d42;
+  background-color: #232d4271;
   width: 450px;
   margin: auto;
   border-radius: 8px;
